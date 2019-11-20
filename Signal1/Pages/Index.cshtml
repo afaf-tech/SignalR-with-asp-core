@@ -1,0 +1,20 @@
+﻿@page
+<div class="container mt-4">
+
+
+    <select id="group">
+        <option value="All">All</option>
+        <option value="Myself">MySelf</option>
+    </select>
+
+    <textarea name="message" id="message"></textarea>
+    <input type="button" id="sendButton" value="Send Message">
+
+<div id="messages"></div>
+
+</div>
+
+
+
+<script src="~/lib/signalr.js"></script>
+<script src="~/js/message.js"></script>
